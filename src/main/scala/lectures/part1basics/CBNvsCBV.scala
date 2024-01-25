@@ -13,6 +13,7 @@ object CBNvsCBV extends App {
   }
 
   calledByValue(1257387745764245L)
+  calledByValue(System.nanoTime())
   calledByName(System.nanoTime())
 
   def infinite(): Int = 1 + infinite()
